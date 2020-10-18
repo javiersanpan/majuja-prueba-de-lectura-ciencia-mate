@@ -1,4 +1,4 @@
-# prueba-de-lectura
+# prueba-de-lectura-ciencia-mate
 
 Este proyecto está hecho para ayudar a personas a mejorar su comprensión lectora. 
 Incluye 5 lecturas, y hace 3 preguntas de cada una.
