@@ -7,4 +7,4 @@ La sección de lecturas fue desarrollada por Javier Sánchez Panduro
 La sección de ciencias fue desarrollada por Mariann Jimenez
 La sección de matemáticas fue desarrollada por Juan Pablo Pérez
 
-:)
+:o
