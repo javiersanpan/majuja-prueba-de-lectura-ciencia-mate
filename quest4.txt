@@ -1,0 +1,5 @@
+4. Las magnitudes fundamentales son aquellas que no se definen en funcion de otras magnitudes fisicas. Menciona cuales son ejemplos de estas.
+b
+a)  Longitud, area y volumen.
+b)  Masa, tiempo y longitud.
+c)  Aceleracion, velocidad y trabajo.

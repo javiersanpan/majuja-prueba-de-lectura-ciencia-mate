@@ -1,0 +1,5 @@
+5. Menciona cuales son las caracteristicas de los vectores
+b
+a) Magnitud, longitud y direccion.
+b) Magnitud, direccion, sentido y origen.
+c) Direccion , magnitud, longitud  y posicion.
