@@ -1,7 +1,7 @@
 import time
 
 def clear():
-    for cl in range(1000):
+    for _ in range(1000):
         print("")
 
 def importar_historia(archivo_historia, archivo_preguntas):
