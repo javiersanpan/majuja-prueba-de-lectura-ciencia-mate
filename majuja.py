@@ -147,6 +147,9 @@ def preguntas_de_lecturas():
     print("Has terminado, tu puntaje final fue de", puntaje, "puntos de 15")
 
 def preguntas_de_matematicas():
+
+  global fb, contador_c, check, hp, respuesta, run, t
+
   fb = []
   contador_c = 0
   check = 0
@@ -163,10 +166,10 @@ def preguntas_de_matematicas():
   def game_over_art():
 
     print("""
-    __ _  __ _ _ __ ___   ___    _____   _____ _ __ 
-    / _` |/ _` | '_ ` _ \ / _ \  / _ \ \ / / _ \ '__|
-  | (_| | (_| | | | | | |  __/ | (_) \ V /  __/ |   
-    \__, |\__,_|_| |_| |_|\___|  \___/ \_/ \___|_|   
+      __ _  __ _ _ __ ___   ___    _____   _____ _ __ 
+    /  _` |/ _` | '_ ` _ \ / _ \  / _ \ \ / / _ \ '__|
+    | (_| | (_| | | | | | |  __/ | (_) \ V /  __/ |   
+    \__, |\__,_ |_| |_| |_|\___|  \___/ \_/ \___|_|   
     |___/                                           
     
     """)
@@ -191,7 +194,7 @@ def preguntas_de_matematicas():
                     ***********                     ***********                     ***********  
                       *******                         *******                         *******
                         ***                             ***                             ***
-                        *                               *                               * 
+                         *                               *                               * 
       """
       )
 
@@ -211,7 +214,7 @@ def preguntas_de_matematicas():
                     ***********                     ***********                     *         *  
                       *******                         *******                         *     *
                         ***                             ***                             * *
-                        *                               *                               * 
+                         *                               *                               * 
       """
       )
 
@@ -231,7 +234,7 @@ def preguntas_de_matematicas():
                     ***********                     *         *                      *         *  
                       *******                         *     *                          *     *
                         ***                             * *                              * *
-                        *                               *                                * 
+                         *                               *                                * 
       """
       )
     
@@ -251,7 +254,7 @@ def preguntas_de_matematicas():
                     *         *                      *         *                      *         *  
                       *     *                          *     *                          *     *
                         * *                              * *                              * *
-                        *                                *                                * 
+                         *                                *                                * 
       """
       )
 
@@ -390,7 +393,6 @@ def preguntas_de_matematicas():
 
 
   hp = 3            #HP for our user (if you get 0 hp you lose)
-  rn_easy = ""      #This is a displayable string that prints the operation the user has to solve
   respuesta = 0     #This is the correct answer of the operation that is shown to the user, we use it for validate user's input
 
 
@@ -462,7 +464,7 @@ def preguntas_de_matematicas():
     return run, check
 
   #########################
-  t = Timer(30.0, end_game)         #This is a timer that call our end game function when we reach 30 seconds by playing without loosing, it's kinda buggy but could make it work
+  t = Timer(10.0, end_game)         #This is a timer that call our end game function when we reach 30 seconds by playing without loosing, it's kinda buggy but could make it work
   t.start()
   #########################
 
