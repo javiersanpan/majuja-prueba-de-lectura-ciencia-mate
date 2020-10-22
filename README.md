@@ -21,3 +21,4 @@ Seleccione su sitema operativo ingresando en número correspondiente (1 para Win
 Seleccione su modo de juego con el número correspondiente (1 para lecturas, 2 para ciencias, y 3 para matemáticas)
 
 Después, dependiendo del modo de juego, las instrucciones le serán mostradas en pantalla. 
+:)
