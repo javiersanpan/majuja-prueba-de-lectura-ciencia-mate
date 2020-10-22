@@ -22,3 +22,5 @@ Seleccione su modo de juego con el número correspondiente (1 para lecturas, 2 p
 
 Después, dependiendo del modo de juego, las instrucciones le serán mostradas en pantalla. 
 :)
+
+https://github.com/javiersanpan/majuja-prueba-de-lectura-ciencia-mate.git
