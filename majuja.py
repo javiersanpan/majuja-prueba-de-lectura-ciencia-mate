@@ -30,8 +30,6 @@ while True:
 
 modo = input("Selecciona tu modo: 1. Lecturas, 2. Ciencias, 3, Matemáticas: ")
 
-from math_game import preguntas_de_matematicas
-
 def preguntas_de_ciencias():
 
     def leer_preguntas(question_file):
@@ -148,29 +146,13 @@ def preguntas_de_lecturas():
     
     print("Has terminado, tu puntaje final fue de", puntaje, "puntos de 15")
 
-  import random, time, sys, os
-
-  from threading import Timer
+def preguntas_de_matematicas():
+    def preguntas_de_matematicas():
 
   fb = []
   contador_c = 0
   check = 0
 
-  #This is to adapt our clear function to our OS
-  while True:
-    try:
-      usersys = int(input("¿Qué plataforma usas? | 1.- Windows | 2.- Linux o MacOS | 3.- Python IDLE | : "))
-    
-    except ValueError:
-      print("Por favor introduce un valor correcto")
-      continue
-    
-    if usersys > 3 or usersys < 1:
-      print("Por favor introduce un valor correcto")
-      continue
-
-    else:
-      break
 
   #Function for giving feedback to our player when he looses
   def feedback():
