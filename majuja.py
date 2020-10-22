@@ -147,8 +147,6 @@ def preguntas_de_lecturas():
     print("Has terminado, tu puntaje final fue de", puntaje, "puntos de 15")
 
 def preguntas_de_matematicas():
-    def preguntas_de_matematicas():
-
   fb = []
   contador_c = 0
   check = 0
